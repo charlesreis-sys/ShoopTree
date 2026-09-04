@@ -28,7 +28,7 @@ Para o **Serviço de Pagamentos**, adotou-se o padrão **Strategy**.
 
 ---
 
-## Como Executar a PoC Localmente
+## Como Executar Localmente
 
 ### Pré-requisitos
 * Python 3.9+ instalado
