@@ -4,7 +4,7 @@ from eventos.consumidores import consumidor_pagamentos, consumidor_notificacoes
 from rotas import produtos, pagamentos
 
 app = FastAPI(
-    title="PoC Microsserviços ShoopTree",
+    title="Microsserviços ShoopTree",
     description="Demonstração prática da arquitetura evolutiva da ShoopTree em Português"
 )
 
