@@ -11,7 +11,7 @@ Este repositório contém a implementação prática da PoC para a modernizaçã
 
 ---
 
-## 🏗️ Visão Geral da Arquitetura
+## Visão Geral da Arquitetura
 
 A solução foi projetada para resolver os problemas de escalabilidade e alto acoplamento do sistema legado:
 * **Desacoplamento de Domínio:** Os serviços de Produtos e Pagamentos possuem bases isoladas.
@@ -20,7 +20,7 @@ A solução foi projetada para resolver os problemas de escalabilidade e alto ac
 
 ---
 
-## 🎨 Design Pattern Utilizado: Strategy Pattern
+## Design Pattern Utilizado: Strategy Pattern
 
 Para o **Serviço de Pagamentos**, adotou-se o padrão **Strategy**. 
 * **Justificativa:** Permite encapsular os algoritmos de pagamento (PIX e Cartão de Crédito) em classes independentes (`CreditCardPayment` e `PixPayment`) que implementam uma interface comum (`PaymentStrategy`).
@@ -28,7 +28,7 @@ Para o **Serviço de Pagamentos**, adotou-se o padrão **Strategy**.
 
 ---
 
-## ⚙️ Como Executar a PoC Localmente
+## Como Executar a PoC Localmente
 
 ### Pré-requisitos
 * Python 3.9+ instalado
