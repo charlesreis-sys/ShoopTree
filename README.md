@@ -35,3 +35,24 @@ Para o **Serviço de Pagamentos**, adotou-se o padrão **Strategy**.
 * Instalação das dependências:
   ```bash
   pip install fastapi uvicorn pydantic
+
+
+======================================
+
+
+# 🛒 ShoopTree - Prova de Conceito (PoC) de Modernização Arquitetural
+
+Este repositório contém a implementação prática da PoC de modernização arquitetural para a plataforma **ShoopTree**, migrando um monólito legado para uma **Arquitetura de Microsserviços Orientada a Eventos (EDA)**.
+
+---
+
+## ⚙️ 1. Instruções de Execução
+
+### Pré-requisitos
+* Python 3.9+ instalado.
+
+### Passo a Passo
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/seu-usuario/shooptree-poc.git](https://github.com/seu-usuario/shooptree-poc.git)
+   cd shooptree-poc
