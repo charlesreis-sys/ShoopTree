@@ -5,7 +5,7 @@ Software Architecture & Design Patterns
 
 ----------------------------
 
-# 🛒 Modernização Arquitetural ShoopTree
+# Modernização Arquitetural ShoopTree
 
 Este repositório contém a implementação prática da prova de conceito funcional para a modernização arquitetural da plataforma e-commerce **ShoopTree**, demonstrando a migração de um monólito para uma **Arquitetura de Microsserviços Orientada a Eventos (EDA)**.
 
